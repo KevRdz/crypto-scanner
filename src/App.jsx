@@ -3,6 +3,7 @@ import React, {useState, useEffect} from 'react';
 import './App.css';
 import axios from 'axios';
 import Coins from './components/Coins/Coins';
+import NavBar from './components/NavBar/NavBar';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
 
   return (
     <>
+    <NavBar />
       <Coins coins={coins}/>
     </>
   );
