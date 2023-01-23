@@ -25,7 +25,7 @@ const CoinPage = () => {
         <div className='content'>
           <h1>{coin.name}</h1>
         </div>
-        <div>
+        <div className='content'>
           <div className='rank'>
             <span className='rank-btn'>Rank # {coin.market_cap_rank}</span>
           </div>
