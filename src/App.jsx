@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { Route, Routes } from 'react-router-dom';
-import './App.css';
+import './index.css';
 import axios from 'axios';
 import Coins from './components/Coins/Coins';
 import NavBar from './components/NavBar/NavBar';
@@ -15,7 +15,6 @@ function App() {
   useEffect(() => {
     axios.get(url).then((response) => {
       setCoins(response.data)
-      console.log(response.data[0])
     }).catch((error) => {
       console.log(error)
     })
