@@ -4,8 +4,8 @@
   padding: .7rem 1rem;
   display: flex;
   flex-direction: column;
-  background-color: #26272b;
-  box-shadow: 0px 0px 12px #18191b;
+  background-color:  #181818;
+  box-shadow: 0px 0px 12px black;
   border-radius: 8px;
 }
 
@@ -14,11 +14,12 @@
 }
 
 .rank-btn {
-  border: 1px solid blue;
-  box-shadow: 0px 0px 8px blue;
-  background-color: blue;
+  border: 1px solid #F6E71D;
+  box-shadow: 0px 0px 8px #F6E71D;
+  background-color: #F6E71D;
   border-radius: 8px;
   padding: .2rem;
+  color: #18191b;
 }
 
 .info {
@@ -65,7 +66,7 @@ th {
 .stats .row {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #808080;
+  border-bottom: 1px solid #F6E71D;
   margin: .6rem 0;
   padding-bottom: .5rem;
 }
