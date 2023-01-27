@@ -4,7 +4,7 @@
 ---
 paragraph
 ---
-# [visit site here]()
+# [visit site here](https://crypto-scanner.netlify.app/)
 
 ## Tech Used
 - React
