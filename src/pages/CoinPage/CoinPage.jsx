@@ -79,11 +79,11 @@ const CoinPage = () => {
             <div className='right'>
               <div className='row'>
                 <h4>Market Cap</h4>
-                {coin.market_data?.market_cap ? <p>${coin.market_data.market_cap.usd}</p> : null}
+                {coin.market_data?.market_cap ? <p>${coin.market_data.market_cap.usd.toLocaleString()}</p> : null}
               </div>
               <div className='row'>
                 <h4>Circulating Supply</h4>
-                {coin.market_data ? <p>{coin.market_data.circulating_supply}</p> : null}
+                {coin.market_data ? <p>{coin.market_data.circulating_supply.toLocaleString()}</p> : null}
               </div>
             </div>
           </div>

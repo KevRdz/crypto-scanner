@@ -14,7 +14,7 @@ export const Coins = (props) => {
           <p>Price</p>
           <p>24h</p>
           <p className='hide-mobile'>Volume</p>
-          <p className='hide-mobile'>MKT Cap</p>
+          <p className='hide-mobile'>Mkt Cap</p>
         </div>
         {props.coins.map(coins => {
           return (

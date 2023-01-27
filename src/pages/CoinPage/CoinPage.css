@@ -79,6 +79,10 @@ th {
   margin: 1rem 0;
 }
 
+.about p {
+  line-height: 15pt;
+}
+
 @media screen and (max-width: 700px){
   .coin-container .content {
     max-width: 100%;
