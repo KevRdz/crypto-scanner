@@ -6,7 +6,7 @@ _______
 
 This is a simple web app designed to keep track of various different Cryptocurrencies. There is a main page which shows each coin symbol, current price, 24-hour price change, total volume, market cap, and rank. Users can click on a specific coin and will be directed to the specific coin page. This page contains the name, symbol, price, rank, price changes from different time periods, 24h lows and highs, market cap, circulating supply, and lastly an about section for each coin. All information used for this web app is being called from coingecko api.
 _______
-## [visit site here](https://crypto-scanner.netlify.app/)
+## [Visit Site Here](https://crypto-scanner.netlify.app/)
 _______
 
 ## Techs Used
@@ -16,6 +16,7 @@ _______
 - JSX
 - Javascript
 - Axios
+- Coingecko API
 _______
 
 ## Credits
